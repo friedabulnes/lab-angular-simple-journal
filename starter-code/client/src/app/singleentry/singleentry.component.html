@@ -1,0 +1,10 @@
+<p>
+  singleentry works!
+</p>
+<h1> Journal details </h1>
+    
+    <div *ngIf="journalOne">
+        <p> {{ journalOne.title }}</p>
+        <p> {{ journalOne.date }} </p>
+        <p>{{journalOne.content}}</p>
+    </div>

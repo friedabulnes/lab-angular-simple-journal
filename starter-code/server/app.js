@@ -10,7 +10,10 @@ const cors         = require('cors');
 
 mongoose.connect('mongodb://localhost/journal-development');
 
+
+
 const app = express();
+
 
 app.use(cors());
 // view engine setup
